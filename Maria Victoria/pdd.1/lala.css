@@ -1,0 +1,74 @@
+img{
+    width:200px;
+    height:200px;
+}
+body{
+    background-color: rgb(6, 6, 6);
+    color: aliceblue;
+}
+.instagram{
+ position: fixed;
+ right: 20px;
+ bottom: 20px;
+ padding: 15px;
+ background-color: rgb(255, 255, 255);
+ color: rgb(251, 251, 251);
+ border:none;
+ border-radius:30px;
+}
+.botao-artistas {
+    background-color: #D4AF37;
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid #F5D76E;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.botao-artistas:hover {
+    background-color: black;
+    color: #D4AF37;
+    border: 2px solid #D4AF37;
+}
+
+.artistas {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.cartao-artista {
+    width: 200px;
+    text-align: center;
+}
+
+.cartao-artista img {
+    width: 180px;
+    height: 180px;
+}
+
+.final {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.final h2 {
+    color: #d63384;
+}
+
+.final p {
+    font-size: 18px;
+}
+
+.final button {
+    background-color: #d63384;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
