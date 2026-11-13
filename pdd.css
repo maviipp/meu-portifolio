@@ -1,0 +1,89 @@
+
+
+
+
+body {
+    margin: 0;
+    background-color: #171717;
+    font-family: Arial;
+    color: rgb(87, 83, 83);
+}
+
+
+header {
+    background-color: #252525;
+    text-align: center;
+    padding: 40px;
+    border-bottom: 3px solid #060138;
+}
+
+header h1 {
+    color: #0a094d;
+    font-size: 35px;
+}
+
+header h2 {
+    color: white;
+}
+
+header p {
+    color: #cccccc;
+    font-size: 17px;
+}
+
+
+.imagem {
+    text-align: center;
+    padding: 50px;
+}
+
+.imagem img {
+    width: 170px;
+    border-radius: 50px;
+    border: 3px solid p#0f0f41;
+}
+
+.inscricao {
+    background-color: #252525;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.inscricao h1 {
+    color: #0d0c44;
+}
+
+
+button {
+    background-color: #161149;
+    color: black;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #484a9a;
+}
+
+
+footer {
+    background-color: #252525;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #aaaaaa;
+    font-size: 13px;
+}
+
+.instagram {
+    background-color: #25D366;
+    color: white;
+}
